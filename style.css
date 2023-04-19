@@ -1,0 +1,64 @@
+html {
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none ;
+}
+
+.list-group {
+  max-width: 100%;
+}
+
+.list-group:hover {
+  cursor: pointer;
+}
+
+.list-group-item {
+  margin-right: 10px;
+  padding: 1.8rem 1rem;
+  width: 110px;
+  height: 100px;
+  font-size: 25px;
+  text-align: center;
+  background-image: url('card.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.list-group-item+.list-group-item {
+  border-top-width: 1px;
+}
+
+.number--not-active {
+  opacity: 0;
+}
+
+.number--active {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.form-text {
+  margin: 0;
+  margin-right: 10px;
+  padding: 5px;
+  width: 25%;
+  border: 1px solid #0b5ed7;
+  border-radius: 5px !important;
+}
+
+.form-text:last-child {
+  margin-right: 0;
+}
+
+
